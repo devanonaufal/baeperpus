@@ -1,6 +1,6 @@
 @extends('auth.template')
 @section('title')
-Register Anggota | SIPERPUS
+Register Anggota | E-FARI
 @endsection
 @section('content')
 <!-- login area start -->

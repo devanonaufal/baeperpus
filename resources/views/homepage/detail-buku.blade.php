@@ -1,6 +1,6 @@
 @extends('homepage.templates.master')
 @section('title')
-Katalog Buku | SIPERPUS
+Katalog Buku | E-FARI
 @endsection
 @section('content')
 <!-- bradcam_area  -->

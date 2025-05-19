@@ -1,6 +1,6 @@
 @extends('homepage.templates.master')
 @section('title')
-{{ $pengumuman->judul }} | SIPERPUS
+{{ $pengumuman->judul }} | E-FARI
 @endsection
 @section('content')
 <!-- bradcam_area  -->

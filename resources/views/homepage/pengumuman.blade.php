@@ -1,6 +1,6 @@
 @extends('homepage.templates.master')
 @section('title')
-Pengumuman & Informasi | SIPERPUS
+Pengumuman & Informasi | E-FARI
 @endsection
 @section('content')
 <!-- bradcam_area  -->

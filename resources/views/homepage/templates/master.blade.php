@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title')</title>
-    <meta name="description" content="SIPERPUS">
+    <meta name="description" content="E-FARI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="{{ asset('assets/home/library.png') }}">
     <link rel="stylesheet" href="{{ asset('assets/home/css/bootstrap.min.css') }}">

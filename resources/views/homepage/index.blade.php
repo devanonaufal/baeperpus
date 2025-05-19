@@ -1,6 +1,6 @@
 @extends('homepage.templates.master')
 @section('title')
-Homepage | SIPERPUS
+Homepage | E-FARI
 @endsection
 @section('content')
 <!-- slider_area_start -->

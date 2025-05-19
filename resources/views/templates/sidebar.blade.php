@@ -2,7 +2,7 @@
     <div class="sidebar-header">
         <div class="logo">
             <a href="/">
-                <h5 style="color:white">SIPERPUS <i class="fa fa-book"></i></h5>
+                <h5 style="color:white">E-FARI <i class="fa fa-book"></i></h5>
             </a>
         </div>
     </div>

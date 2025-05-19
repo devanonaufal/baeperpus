@@ -11,7 +11,7 @@
                             </a>
                         </div>
                         <p>
-                            Grove Street 14<br> Ganton<br> Los Santos<br>San Andreas<br>14292
+                            Jl. Ken Arok Singosari No.9<br> Pangetan<br> Kec. Singosari<br>Kabupaten Malang<br>65153
                         </p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <p class="copy_right text-center">
-                        Synxhronous &copy;<?= date('Y') ?>. All rights reserved.</a>
+                        efari &copy;<?= date('Y') ?>. All rights reserved.</a>
                     </p>
                 </div>
             </div>

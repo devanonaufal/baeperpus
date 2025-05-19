@@ -1,6 +1,6 @@
 @extends('auth.template')
 @section('title')
-Login | SIPERPUS
+Login | E-FARI
 @endsection
 @section('content')
 <!-- login area start -->
