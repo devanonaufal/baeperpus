@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: May 09, 2025 at 03:22 AM
+-- Generation Time: May 19, 2025 at 08:30 AM
 -- Server version: 5.7.44
 -- PHP Version: 8.2.27
 
@@ -112,8 +112,8 @@ INSERT INTO `model_has_roles` (`role_id`, `model_type`, `model_id`) VALUES
 (2, 'App\\User', 8),
 (1, 'App\\User', 9),
 (2, 'App\\User', 9),
-(1, 'App\\Models\\User', 10),
-(2, 'App\\Models\\User', 10),
+(1, 'App\\User', 10),
+(2, 'App\\User', 10),
 (3, 'App\\User', 10);
 
 -- --------------------------------------------------------
@@ -198,15 +198,6 @@ CREATE TABLE `permissions` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `permissions`
---
-
-INSERT INTO `permissions` (`id`, `name`, `guard_name`, `created_at`, `updated_at`) VALUES
-(2, 'view_dashboard', 'web', '2025-05-09 03:15:34', '2025-05-09 03:15:34'),
-(3, 'manage_users', 'web', '2025-05-09 03:15:34', '2025-05-09 03:15:34'),
-(4, 'edit_posts', 'web', '2025-05-09 03:15:34', '2025-05-09 03:15:34');
-
 -- --------------------------------------------------------
 
 --
@@ -241,15 +232,6 @@ CREATE TABLE `role_has_permissions` (
   `role_id` bigint(20) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `role_has_permissions`
---
-
-INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
-(2, 1),
-(3, 1),
-(4, 1);
-
 -- --------------------------------------------------------
 
 --
@@ -274,7 +256,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `alamat`, `no_hp`, `password`, `status_user`, `remember_token`, `created_at`, `updated_at`) VALUES
-(10, 'admin', 'admin@admin.com', 'Jl. Admin', '081234', '$2y$10$.x9jpo0sv9R1Kadb0w3IrOmGdfy0skkqnWLE3Qxjx.jYzoCCjP.Ei', 'Tidak Aktif', 'R0KOm8TtzHfE90XB6DDMczVsxryNxcfoVIdSItQIgWpN1ObxvQS2nOHSMZ5K', '2025-05-09 02:08:20', '2025-05-09 02:08:20');
+(10, 'admin', 'admin@admin.com', 'Jl. Admin', '081234123492', '$2y$10$nte1EuutcnjJ.Q/mpjycdeK/MXspPrInFtj/U.bgDUkAak3UJEplq', 'Tidak Aktif', 'QHGl34vpggTqlfhlLIdXaCSDCVstKG37reZnAFsiRrsEvCja2ytRlVhb5ZR1', '2025-05-19 08:16:37', '2025-05-19 08:16:37');
 
 --
 -- Indexes for dumped tables
@@ -358,7 +340,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `buku`
 --
 ALTER TABLE `buku`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -382,13 +364,13 @@ ALTER TABLE `pengumuman`
 -- AUTO_INCREMENT for table `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `users`

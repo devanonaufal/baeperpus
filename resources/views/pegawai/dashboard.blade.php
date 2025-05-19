@@ -1,6 +1,6 @@
 @extends('templates.master')
 @section('title')
-Dashboard Pegawai | SIPERPUS
+Dashboard Pegawai | E-FARI
 @endsection
 @section('content')
 <div class="main-content-inner">

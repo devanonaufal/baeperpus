@@ -1,6 +1,6 @@
 @extends('templates.master')
 @section('title')
-Daftar Anggota | SIPERPUS
+Daftar Anggota | E-FARi
 @endsection
 @section('header')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

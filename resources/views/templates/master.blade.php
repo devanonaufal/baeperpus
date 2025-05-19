@@ -44,7 +44,7 @@
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>Synxhronous ©<?= date('Y') ?>. All right reserved.</p>
+                <p>E-FARI ©<?= date('Y') ?>. All right reserved.</p>
             </div>
         </footer>
         <!-- footer area end-->

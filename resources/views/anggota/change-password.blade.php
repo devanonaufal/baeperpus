@@ -1,6 +1,6 @@
 @extends('templates.master')
 @section('title')
-Ganti Password | SIPERPUS
+Ganti Password | E-FARI
 @endsection
 @section('content')
 <div class="main-content-inner">

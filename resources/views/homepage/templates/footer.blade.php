@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <p class="copy_right text-center">
-                        efari &copy;<?= date('Y') ?>. All rights reserved.</a>
+                        E-FARI &copy;<?= date('Y') ?>. All rights reserved.</a>
                     </p>
                 </div>
             </div>

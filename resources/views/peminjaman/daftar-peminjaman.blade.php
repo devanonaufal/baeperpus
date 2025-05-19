@@ -1,6 +1,6 @@
 @extends('templates.master')
 @section('title')
-Daftar Peminjaman Buku | SIPERPUS
+Daftar Peminjaman Buku | E-FARI
 @endsection
 @section('header')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
