@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: May 19, 2025 at 08:30 AM
+-- Generation Time: May 20, 2025 at 07:15 AM
 -- Server version: 5.7.44
 -- PHP Version: 8.2.27
 
@@ -256,6 +256,14 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `alamat`, `no_hp`, `password`, `status_user`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Ardan Anjung Kusuma', 'ardan@gmail.com', 'Jl. Kusman 10', '089560678752', '$2y$10$q/MBBG70jqY6FiPWJ2Fcn.ThbnDGKvBHfrTtAdCu6ckzSFy2miaxG', 'Aktif', 'MCX8aFyJVQav0eiF9KFyGitotBHYc9mnmgh8f7bNDHLpzwmaa6pmc2sInr2x', '2021-01-21 20:28:23', '2021-01-31 08:50:04'),
+(2, 'Gunawan Kurniya Aji', 'gunawan@gmail.com', 'JL. Kenanga 99 Balen', '082341235127', '$2y$10$4FwxnKJV.zjJbFP2rjrm3uZUQZ2PITlt41R5UgH.kesXMwzdjlMAm', 'Aktif', 'ASVPXcQy5CzTvvd6sOTOFGODVkHuO3OC1AR1nBr5TGgWHkxhbVdsBsnkVCkk', '2021-01-21 20:29:28', '2021-01-21 20:29:28'),
+(3, 'Ahmad Kholil', 'kholil@gmail.com', 'Jl. Melati 12 Bojonegoro', '082359124212', '$2y$10$Cv6wCtUW9KRlpsymyqCa/e5vuofrCq50/44rFvhjNhM2664ESrTQu', 'Aktif', 'u9jcKERUlyVSVPUwWCglfnM2bvhvrCe1HVUK3ta4LftkSa5hWrSgYDkRSWgI', '2021-01-21 23:46:00', '2021-01-21 23:46:00'),
+(4, 'Yuni Kurnia', 'yuni@gmail.com', 'Jl. Mawar 13 Bojonegoro', '081234561232', '$2y$10$xn2DoksDfpkNWCM.lm0yCOkOrKA5FIGGz8tAuHKH4VdgKpXQinmZq', 'Aktif', '8vpDJkyKxhh4tYUgPkY4WTyapMkQQ50CLdNu3Jj2sESM9l9SsUuK3AFqb8yO', '2021-01-24 20:33:03', '2021-01-31 08:58:46'),
+(5, 'Gita Savitri Devi', 'gita@gmail.com', 'Jl. Sesame 12 Bojonegoro', '082341234821', '$2y$10$s7.L/GrMVb.uH/HqBYw/quXJ3kkVVBmGbyVfG0l0bVa3xXzhcG0ga', 'Aktif', 'ub8qax9pVuJoFmaccZJgQyuPZ4bor4t3zrc767xJQYuWt9dg3aWh3t2y27qA', '2021-01-24 20:43:00', '2021-01-29 19:05:17'),
+(6, 'Agung Adi', 'agung@gmail.com', 'Jl. Depan Stadion 15', '08951234231', '$2y$10$PEGA7NvFNvI6kCvdykpZLenmMqkztswrms1Q5NbMkWYQPxJXP51Y.', 'Aktif', '1bP8Mi8o8kemLjHzv3kBWx7jOdUte4N9CH5x58tQDgVCmqtPP31WwYEZ2lp5', '2021-01-29 20:08:50', '2021-01-29 20:08:50'),
+(8, 'Demo Pegawai', 'demo@gmail.com', 'Jl Demo Pegawai', '08123456732', '$2y$10$GzbRnUGXhoJxZX0ygfY3c.aLNDsnf0.V9ecsqIGkRr7be6Oru0tKK', 'Aktif', 'te08fttYdr1IBOIruAX9eYo69aZ2eomqf7UmguBdiPBhshiR7rEY4ObE9VB4', '2021-01-31 09:08:39', '2021-01-31 09:08:39'),
+(9, 'Another Admin', 'admin@gmail.com', 'Bojonegoro', '0859212323', '$2y$10$CfoyPThOdmgIzzVFpQgRoeSkxgalOfGB65pqCRQx9mPLVWwcKE5.q', 'Aktif', 'NUMpmlHqISVTdXasHfJChMbLncbPR5OzNUACtYkSL7S8sHmnC77q6aHxJSkO', '2021-01-31 09:13:10', '2021-01-31 09:13:10'),
 (10, 'admin', 'admin@admin.com', 'Jl. Admin', '081234123492', '$2y$10$nte1EuutcnjJ.Q/mpjycdeK/MXspPrInFtj/U.bgDUkAak3UJEplq', 'Tidak Aktif', 'QHGl34vpggTqlfhlLIdXaCSDCVstKG37reZnAFsiRrsEvCja2ytRlVhb5ZR1', '2025-05-19 08:16:37', '2025-05-19 08:16:37');
 
 --
@@ -340,7 +348,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `buku`
 --
 ALTER TABLE `buku`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -370,7 +378,7 @@ ALTER TABLE `permissions`
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `users`
